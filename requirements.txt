@@ -1,0 +1,6 @@
+streamlit
+pypdf2
+fpdf
+pandas
+openpyxl
+ollama

@@ -1,0 +1,42 @@
+/* Basic styles for Student Command Centre */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stTabs {
+    margin-top: 20px;
+}
+
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+.stTextInput input, .stTextArea textarea, .stNumberInput input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.stCheckbox label {
+    font-size: 16px;
+}
